@@ -17,21 +17,22 @@ This project contains a **Streamlit** web application for predicting stock price
 1. Clone the repository:
    ```bash
    git clone https://github.com/NikitaEmberi/MyLearning
+   ```
    
 2. Install dependencies:
-  ```bash
-  pip install -r requirements.txt
-  ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 3. Install dependencies:
-  ```bash
-  pip install -r requirements.txt
-  ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 4. Run the app
-  ```bash
-  streamlit run Trading_App/app.py
-  ```
+   ```bash
+   streamlit run Trading_App/app.py
+   ```
 
 Link: [https://know-todays-closing-stock-price.streamlit.app/]([url](https://know-todays-closing-stock-price.streamlit.app/))
 
