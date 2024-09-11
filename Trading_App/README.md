@@ -33,6 +33,9 @@ This project contains a **Streamlit** web application for predicting stock price
   streamlit run Trading_App/app.py
   ```
 
+Link: [https://know-todays-closing-stock-price.streamlit.app/]([url](https://know-todays-closing-stock-price.streamlit.app/))
+
+
 ## Dependencies
 - Python 3.8+
 - Streamlit
