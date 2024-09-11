@@ -80,6 +80,6 @@ volume = st.number_input('Volume of Previous Day', min_value=0, max_value=100000
 features = calculate_features(high, low, adj_close, prev_close, volume)
 
 # Predict Button
-if st.button('Predict Today's Percentage Change'):
+if st.button("Predict Today's Percentage Change"):
   predicted_percentage_change = predict_next_day(features)
   st.write(f"The predicted percentage change for today is: {predicted_percentage_change:.2f}%")
