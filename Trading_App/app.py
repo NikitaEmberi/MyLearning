@@ -5,8 +5,8 @@ import joblib  # Correct import for joblib
 
 def load_model():
   # Load the pre-trained model and scaler from disk
-  model = joblib.load('Trading_model.pkl')  # Adjust path if needed
-  scaler = joblib.load('Trading_scaler.pkl')  # Adjust path if needed
+  model = joblib.load('Trading_App/Trading_model.pkl')  # Adjust path if needed
+  scaler = joblib.load('Trading_App/Trading_scaler.pkl')  # Adjust path if needed
   return model, scaler
 
 # Load model and scaler
