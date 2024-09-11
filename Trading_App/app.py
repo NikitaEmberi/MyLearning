@@ -66,7 +66,7 @@ def predict_next_day(features):
 # Streamlit App Layout
 st.title('Stock Price Prediction App')
 
-st.write("Enter the stock features below to predict the next day's Adjusted Close price.")
+st.write("Enter the stock features below to predict the today's Adjusted Close price based on historical data.")
 
 # Input Fields for Basic Features
 high = st.number_input('High Price of previous Day', min_value=0.0, max_value=10000.0, step=0.01)
@@ -80,6 +80,6 @@ volume = st.number_input('Volume of Previous Day', min_value=0, max_value=100000
 features = calculate_features(high, low, adj_close, prev_close, volume)
 
 # Predict Button
-if st.button('Predict Next Day Percentage Change'):
+if st.button('Predict Today's Percentage Change'):
   predicted_percentage_change = predict_next_day(features)
   st.write(f"The predicted percentage change for today is: {predicted_percentage_change:.2f}%")
